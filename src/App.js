@@ -1,8 +1,11 @@
-import Header from "./components/Header/Header";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Header from './components/Header/Header';
+import Navbar from './components/Header/Navbar/Navbar';
 function App() {
   return (
     <div className="App">
-      <Header/>
+      <Navbar/>
+      
     </div>
   );
 }
