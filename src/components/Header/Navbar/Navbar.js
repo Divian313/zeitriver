@@ -1,10 +1,11 @@
-import "./Navbar.css"
+import "./Navbar.css";
+import logo from "./img/logo-w.png";
 const Navbar = () => {
   return (
-    <nav class="navbar navbar-expand-lg bg-light">
-      <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg fixed-top" >
+      <div class="container">
         <a class="navbar-brand" href="#">
-          Navbar
+          <img src={logo} width="220"  />
         </a>
         <button
           class="navbar-toggler"
@@ -17,9 +18,8 @@ const Navbar = () => {
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <div class="collapse navbar-collapse d-lg-flex justify-content-around" id="navbarNavDropdown">
           <ul class="navbar-nav">
-            
             <li class="nav-item">
               <a class="nav-link" href="#">
                 Giới thiệu
@@ -60,7 +60,6 @@ const Navbar = () => {
                 Liên hệ
               </a>
             </li>
-            
             
           </ul>
         </div>
