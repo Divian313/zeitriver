@@ -10,3 +10,33 @@
 .navbar {
     background-color: rgb(3, 130, 163);
 }
+.offcanvas-header {
+    background-color: rgb(15, 93, 112);
+    
+}
+#offcanvasNavbar {
+    width: 16.5em;
+}
+.offcanvas-body {
+    
+    background-color: rgb(15, 93, 112);
+    
+}
+.offcanvas-body li {
+    border-bottom: white 1px solid;
+    
+}
+.offcanvas-body li > a {
+    color: rgb(223 201 112);
+    margin-left: 1em;
+    padding: 1em 0px;
+}
+.nav-contact {
+    border: none !important;
+}
+.btn-close {
+    /* background-color: rgb(150, 149, 149); */
+}
+.btn-close:hover {
+    background-color: #dd9933;
+}

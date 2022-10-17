@@ -1,10 +1,10 @@
-import Example from "./Navbar/Navbar";
+import Navbar from "./Navbar/Navbar";
 
 const Header = () => {
   return (
     <div className="container-fluid bg-success">
       <div className="container">
-        <Example />
+        <Navbar/>
       </div>
     </div>
   );

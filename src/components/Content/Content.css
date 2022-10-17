@@ -1,0 +1,12 @@
+.row {
+    display: flex;
+    flex-direction: row-reverse;
+    display: fixed;
+    justify-content: space-between;
+}
+.row a {
+    color: black;
+}
+.nav-link a{
+    display: inline-block;
+}
