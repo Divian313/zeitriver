@@ -1,4 +1,4 @@
-.row {
+/* .row {
     display: flex;
     flex-direction: row-reverse;
     display: fixed;
@@ -9,4 +9,32 @@
 }
 .nav-link a{
     display: inline-block;
+} */
+
+/* .row {
+    display: flex;
+    flex-direction: row-reverse;
+
+} */
+a {
+    text-decoration: none;
+}
+#simple-list-example {
+    height: 15em;
+    display: flex;
+    justify-content: space-between;
+    /* display: block; */
+}
+ .simple-list-example-scrollspy {
+     position: fixed;
+     top: 40%;
+     right: 0;     
+ }
+ .simple-list-example-scrollspy a {
+   content: "";
+   width: 15px;
+   height: 15px;
+   background-color: black;
+   /* border-radius: 50%; */
+   /* display: inline-block; */
 }
