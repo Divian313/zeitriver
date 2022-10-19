@@ -1,0 +1,13 @@
+.list-group {
+    position: fixed;
+    top: 40%;
+    right: 0;
+}
+.list-group a {
+    width: 15px;
+    height: 15px;
+    border: solid rgb(2, 94, 139) !important;
+    /* background-color: rgb(2, 94, 139); */
+    box-shadow: 1px 1px 1px rgb(0 0 0 / 30%);
+}
+

@@ -1,0 +1,11 @@
+.simple-list-example-scrollspy {
+    position: fixed;
+    top: 40%;
+    right: 0;
+}
+
+.simple-list-example-scrollspy a {
+    width: 15px;
+    height: 15px;
+    background-color: #007cba;
+}
