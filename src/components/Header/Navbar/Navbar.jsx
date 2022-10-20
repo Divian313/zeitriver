@@ -34,42 +34,42 @@ const Navbar = () => {
           aria-labelledby="ONavbarLabel">
           <ul class="navbar-nav ">
             <li class="nav-item ">
-              <a class="nav-link" href="#">
+              <a class="nav-link" href="#gioithieu">
                 Giới thiệu
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">
+              <a class="nav-link" href="#vitri">
                 Vị trí
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">
+              <a class="nav-link" href="#tienich">
                 Tiện ích
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">
+              <a class="nav-link" href="#matbang">
                 Mặt bằng
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">
+              <a class="nav-link" href="#giaban">
                 Giá bán
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">
+              <a class="nav-link" href="#tiendo">
                 Tiến độ
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">
+              <a class="nav-link" href="#tintuc">
                 Tin tức
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">
+              <a class="nav-link" href="#lienhe">
                 Liên hệ
               </a>
             </li>
@@ -100,7 +100,7 @@ const Navbar = () => {
             <div class="offcanvas-body m-0 p-0">
               <ul class="navbar-nav justify-content-end flex-grow-1 ">
               <li class="nav-item">
-              <a class="nav-link" href="#">
+              <a class="nav-link" href="#gioithieu">
                 Giới thiệu
               </a>
             </li>

@@ -1,14 +1,11 @@
-const ContentComponent = () => {
+import "./ContentComponent.css"
+const ContentComponent = (props) => {
+  const h2Classes = 'text-center py-2 ' + props.h2ClassName
   return (
-    <div className="container">
-      <h4 id="list-item-1">Item 1</h4>
-      <p>check </p>
-      <h4 id="list-item-2">Item 2</h4>
-      <p>check </p>
-      <h4 id="list-item-3">Item 3</h4>
-      <p>check </p>
-      <h4 id="list-item-4">Item 4</h4>
-      <p>check </p>
+    <div className="container p-0" >      
+      <h2 className={h2Classes} id={props.id}>{props.title}</h2>
+      <p>{props.noidung}</p>
+      {props.children}
     </div>
   );
 };

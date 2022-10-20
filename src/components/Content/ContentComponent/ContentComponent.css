@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+.background-zeit {
+    font-family: 'Oswald', sans-serif;
+    background-color: #2F6878;
+    color: white;
+}
+.background-white {
+    font-family: 'Oswald', sans-serif;
+    color: #2F6878;
+}

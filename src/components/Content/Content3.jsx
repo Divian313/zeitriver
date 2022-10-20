@@ -1,20 +1,40 @@
-import "./Content3.css"
+import "./Content3.css";
 const Content3 = (props) => {
   return (
     <div>
       <div id="list-example" class="list-group">
-        <a class="rounded-circle p-1 me-1 mb-3 list-group-item list-group-item-action" href="#list-item-1">
-          
-        </a>
-        <a class="rounded-circle p-1 me-1 mb-3 list-group-item list-group-item-action" href="#list-item-2">
-         
-        </a>
-        <a class="rounded-circle p-1 me-1 mb-3 list-group-item list-group-item-action" href="#list-item-3">
-          
-        </a>
-        <a class="rounded-circle p-1 me-1 mb-3 list-group-item list-group-item-action" href="#list-item-4">
-          
-        </a>
+        <a
+          class="rounded-circle p-1 me-1 mb-3 list-group-item list-group-item-action"
+          href="#gioithieu"
+        ></a>
+        <a
+          class="rounded-circle p-1 me-1 mb-3 list-group-item list-group-item-action"
+          href="#vitri"
+        ></a>
+        <a
+          class="rounded-circle p-1 me-1 mb-3 list-group-item list-group-item-action"
+          href="#tienich"
+        ></a>
+        <a
+          class="rounded-circle p-1 me-1 mb-3 list-group-item list-group-item-action"
+          href="#matbang"
+        ></a>
+        <a
+          class="rounded-circle p-1 me-1 mb-3 list-group-item list-group-item-action"
+          href="#giaban"
+        ></a>
+        <a
+          class="rounded-circle p-1 me-1 mb-3 list-group-item list-group-item-action"
+          href="#tiendo"
+        ></a>
+        <a
+          class="rounded-circle p-1 me-1 mb-3 list-group-item list-group-item-action"
+          href="#tintuc"
+        ></a>
+        <a
+          class="rounded-circle p-1 me-1 mb-3 list-group-item list-group-item-action"
+          href="#lienhe"
+        ></a>
       </div>
 
       <div
@@ -23,18 +43,9 @@ const Content3 = (props) => {
         data-bs-smooth-scroll="true"
         class="scrollspy-example"
         tabindex="0"
-      >
-        
-      </div>
+      ></div>
       {props.children}
-        {/* <h4 id="list-item-1">Item 1</h4>
-        <p>check </p>
-        <h4 id="list-item-2">Item 2</h4>
-        <p>check </p>
-        <h4 id="list-item-3">Item 3</h4>
-        <p>check </p>
-        <h4 id="list-item-4">Item 4</h4>
-        <p>check </p> */}
+      
     </div>
   );
 };
