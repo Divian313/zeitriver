@@ -1,9 +1,9 @@
-.list-group {
+.allTitle {
     position: fixed;
     top: 40%;
     right: 0;
 }
-.list-group a {
+.allTitle a {
     width: 15px;
     height: 15px;
     border: solid rgb(2, 94, 139) !important;

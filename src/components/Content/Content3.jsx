@@ -1,8 +1,8 @@
-import "./Content3.css";
+import styled from "./Content3.module.css";
 const Content3 = (props) => {
   return (
     <div>
-      <div id="list-example" class="list-group">
+      <div id="list-example" class={`${styled.allTitle} + "list-group"`}>
         <a
           class="rounded-circle p-1 me-1 mb-3 list-group-item list-group-item-action"
           href="#gioithieu"
