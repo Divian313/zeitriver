@@ -4,29 +4,26 @@ const Table = () => {
             <table class="table border border-5 border-dark rounded-circle">
                 <thead>
                   <tr>
-                    <th scope="col">#</th>
-                    <th scope="col">First</th>
-                    <th scope="col">Last</th>
-                    <th scope="col">Handle</th>
+                    
+                    <th scope="col">TÊN DỰ ÁN</th>
+                    <th scope="col">THỦ THIÊM ZEIT RIVER</th>
                   </tr>
                 </thead>
                 <tbody>
                   <tr>
-                    <th scope="row">1</th>
+                    <th scope="row">Vị trí dự án</th>
                     <td>Mark</td>
-                    <td>Otto</td>
-                    <td>@mdo</td>
+                    
                   </tr>
                   <tr>
-                    <th scope="row">2</th>
+                    <th scope="row">Tổng diện tích</th>
                     <td>Jacob</td>
-                    <td>Thornton</td>
-                    <td>@fat</td>
+                    
                   </tr>
                   <tr>
-                    <th scope="row">3</th>
-                    <td colspan="2">Larry the Bird</td>
-                    <td>@twitter</td>
+                    <th scope="row">Mật độ xây dựng</th>
+                    <td>Larry the Bird</td>
+                    
                   </tr>
                 </tbody>
               </table>
