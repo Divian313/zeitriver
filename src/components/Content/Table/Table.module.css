@@ -1,0 +1,36 @@
+/* .table-tongquan {
+    border-collapse: separate;
+    border: solid rgb(207, 193, 193) 1px;
+    border-radius: 2em;
+    padding: 1em;
+} */
+:root {
+    --zeit-color: #2F6878;
+}
+.wrap {
+    border: solid 2px var(--zeit-color);
+    border-radius: 2em;
+    padding: 1em;
+    display: flex;
+    align-items: center;
+}
+th {
+    font-size: 0.9em;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    color: var(--zeit-color);
+}
+h5 {
+    display: inline;
+    font-size: 0.9em;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    
+}
+
+td {
+    font-family: 'Oswald', sans-serif;
+    font-size: 0.9em;
+    color: var(--zeit-color);
+    font-weight: 400;
+}

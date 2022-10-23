@@ -11,18 +11,19 @@ function App() {
       <Banner />
       <Content3>
         <ContentComponent id="tongquan">
-          <div className="row">
+          <div className="row d-flex align-items-center">
             <div className="col col-lg-7 col-12">
               <Table/>
             </div>
             <div className="col col-lg-5 col-12">
               <img
-                className="img-fluid"
+                className="img-fluid mt-5 mt-lg-0 "
                 src={require("./image/tong-quan.jpg")}
               ></img>
             </div>
           </div>
         </ContentComponent>
+        
         <ContentComponent
           id="gioithieu"
           noidung="check"
