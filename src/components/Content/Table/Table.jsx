@@ -81,7 +81,7 @@ const Table = () => {
             <td><h5>{dataTable.thoigianbangiao}</h5></td>
           </tr>
           <tr>
-            <th scope="row">SĐT Liên hệ</th>
+            <th scope="row">Liên hệ tư vấn</th>
             <td>{dataTable.sdt}</td>
           </tr>
         </tbody>

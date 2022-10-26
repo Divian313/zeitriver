@@ -1,13 +1,18 @@
+import underline from "./image/underline.png"
 import "./ContentComponent.css";
 const ContentComponent = (props) => {
-  const h2Classes = "text-center py-2 " + props.h2ClassName;
+  const h2Classes = "text-center py-2 mt-5 fontTitle " + props.h2ClassName;
   const wrapClasses = "container-fluid " + props.wrapClassName
   return (
     <div className={wrapClasses}>
-      <div className="container p-0 mt-0">
+      <div></div>
+      <div style={{}} className="container pt-1 mt-0">
         <h2 className={h2Classes} id={props.id}>
           {props.title}
         </h2>
+        <div className="text-center m-4">
+        <img style={{width:80}} src={underline}></img>
+        </div>
         <p>{props.noidung}</p>
         {props.children}
       </div>
