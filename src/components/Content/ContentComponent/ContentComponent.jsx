@@ -13,7 +13,7 @@ const ContentComponent = (props) => {
         <div className="text-center m-4">
         <img style={{width:80}} src={underline}></img>
         </div>
-        <p>{props.noidung}</p>
+        
         {props.children}
       </div>
     </div>
