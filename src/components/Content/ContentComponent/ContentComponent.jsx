@@ -6,7 +6,7 @@ const ContentComponent = (props) => {
   return (
     <div className={wrapClasses}>
       <div></div>
-      <div style={{}} className="container pt-1 mt-0">
+      <div style={{maxWidth: 1100}} className="container pt-1 mt-0">
         <h2 className={h2Classes} id={props.id}>
           {props.title}
         </h2>

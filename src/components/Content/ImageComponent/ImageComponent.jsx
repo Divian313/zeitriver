@@ -1,4 +1,7 @@
-
+import styled from "styled-components"
+const Wrap = styled.div`
+ 
+`
 const ImageComponent = (props) => {
     return (
         <div>
