@@ -11,7 +11,7 @@ const Wrap = styled.div`
 const Vitri = (props) => {
   return (
     <div>
-      <div className="row">
+      <div className="row mb-5">
         <div className="col-lg-8 col-12">
           <img className="img-fluid" src={props.picture} alt="" srcset="" />
         </div>

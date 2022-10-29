@@ -15,7 +15,7 @@
     align-items: center;
 }
 th {
-    font-size: 0.9em;
+    font-size: 1em;
     font-family: 'Oswald', sans-serif;
     font-weight: 600;
     color: var(--zeit-color);

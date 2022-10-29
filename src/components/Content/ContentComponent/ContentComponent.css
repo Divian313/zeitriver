@@ -17,7 +17,18 @@
 p {
     font-family: 'Oswald', sans-serif;
     color: #2F6878;
+    font-size: 18px;
 }
+p > ul > li {
+    margin: 0;
+    padding: 5px 30px;
+    list-style: none;
+    background-image: url(./image//check02.png);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: left center;
+}
+
 .fontTitle {
     
     /* font-size: 25.6px; */

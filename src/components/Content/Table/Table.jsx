@@ -14,7 +14,7 @@ const Table = () => {
     phankhuchucnang: ['2 Tháp Căn Hộ Cao Cấp - Tháp T1: Cao 25 Tầng & Tháp T2: Cao 32 Tầng','Khu vực khối đế - Gồm Shophouse, TTTM, Nhà phố kết hợp cảnh quan sân vườn, và một số tiện ích tại tầng trệt'],
     khuvucdauxe: ['Gồm 2 tầng hầm: Với 470 chỗ đậu xe hơi và 283 chỗ đậu xe máy.', 'Tỷ lệ diện chỗ đậu xe hơi/căn hộ: 1.5'],
     thoigianbangiao: '– Quý 4/2024',
-    sdt: '0888212229'
+    sdt: '0909116262'
 
   };
 
