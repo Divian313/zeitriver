@@ -8,6 +8,8 @@ import GioiThieu from "./components/Content/ContentComponent/InsideComponent/Gio
 import Location from "./components/Content/ContentComponent/InsideComponent/Location";
 import TienIch from "./components/Content/ContentComponent/InsideComponent/TienIch";
 import MatBang from "./components/Content/ContentComponent/InsideComponent/MatBang";
+import TienDoThanhToan from "./components/Content/ContentComponent/InsideComponent/TienDoThanhToan";
+import LienHe from "./components/Content/ContentComponent/InsideComponent/LienHe";
 
 function App() {
   return (
@@ -25,13 +27,12 @@ function App() {
         <TienIch/>
         {/* Mặt bằng */}
         <MatBang/>
+        {/* Tiến độ thanh toán */}
+        <TienDoThanhToan/>
+      {/* Liên hệ */}
+      <LienHe/>
 
-
-        <ContentComponent id="matbang" />
-        <ContentComponent id="giaban" />
-        <ContentComponent id="tiendo" />
-        <ContentComponent id="tintuc" />
-        <ContentComponent id="lienhe" />
+        
       </Content3>
     </div>
   );
